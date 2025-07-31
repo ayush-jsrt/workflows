@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello():
-    return jsonify(message="Hello from Python CI/CD!")
+    return jsonify(message="Hello from Python CI/CD!\ntesting the pull")
 
 
 if __name__ == "__main__":
